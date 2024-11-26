@@ -1,0 +1,35 @@
+body {
+            font-family: "Noto Sans Tamil", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:"wdth" 100;
+        }
+        table{
+            border: 1px solid rgb(165, 163, 163);
+            border-collapse: collapse;
+            text-align: left;
+            background-color: #bce0ee;
+        }
+        td,th{   
+            border: 1px solid rgb(165, 163, 163);
+        }
+        .no-bg{
+            background-color: white;
+        }
+        th{
+            padding:5px 20px;
+            font-weight: 700;
+            background-color: #244e5e;
+            color:white;
+        }
+        .primary{
+            background-color: #122932;
+        }
+        td{
+            padding: 1px 5px;
+        }
+        tbody>tr:hover{
+            background-color: white;
+        }
+   
